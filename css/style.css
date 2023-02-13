@@ -50,7 +50,6 @@ body{
 /* Hero section */
 .hero-section {
     padding: 90px 0px 60px 0px;
-    height: 100vh;
 }
 h1 {
     color: #fff;
@@ -126,6 +125,9 @@ a.hero-btn {
     right: 10%;
     bottom: 13%;
 }
+.earth-rocket-wrap {
+    position: relative;
+}  
 /* Responsive */
 @media (max-width:1024px) {
     .container{
@@ -170,7 +172,57 @@ a.hero-btn {
     }
 
 }
+@media (max-width:1200px) and (min-width:1023px) {
+    .container{
+        width: 94%;
+    }
+    h1.stroke-text{
+        top: -146px;
+    }
+}
+@media (max-width:1700px) and (min-width:1600px) {
+    .earth-image img {
+        left: 26%;
+      }
+      .rocket-image {
+        left: 48%;
+      }
 
+}
+@media (max-width:1599px) and (min-width:1440px) {
+    .earth-image img {
+        left: 25%;
+      }
+      .rocket-image {
+        left: 49%;
+      }
+
+}
+@media (max-width:1439px) and (min-width:1300px) {
+    .earth-image img {
+        left: 23%;
+      }
+      .rocket-image {
+        left: 49.5%;
+      }
+      .statelite-image{
+        display: none;
+      }
+
+
+}
+@media (max-width:1299px) and (min-width:1100px) {
+    .earth-image img {
+        left: 17%;
+      }
+      .rocket-image {
+        left: 49%;
+      }
+      .statelite-image{
+        display: none;
+      }
+
+}
 @media (max-width:767px) and (min-width:520px) {
     h1.stroke-text {     
         top: -92px !important;
