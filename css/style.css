@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #263959;
+}
+img{
+    max-width: 100% !important;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+/* Header */
+.logo {
+    padding: 35px 0px;
+}
+/* Hero section */
+.hero-section {
+    padding: 90px 0px 60px 0px;
+    height: 100vh;
+}
+h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    font-family: 'Gilroy';
+
+}
+h1.stroke-text {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #626268;
+    position: relative;
+    top: -142px;
+    left: -5px;
+    z-index: -1;
+    line-height: 72px;
+}
+span.quote-color {
+    color: #424249;
+}
+.hero-content{
+    text-align: center;
+    z-index: 2;
+    padding: 10px 160px;
+}
+a.hero-btn {
+    background-color: #5D5FEF;
+    padding: 20px 40px;
+    border-radius: 50px;
+    box-shadow: 14px 11px 16px 0px #0003, inset 1.69px 2.52px 1.69px 0px #ffffff24, inset -3.37px -2.52px 2.53px 0px #00000024;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top: -85px;
+}
+.urnaus-image img {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+.earth-image img {
+    position: fixed;
+    bottom: 0px;
+    left: 30%;
+}
+.astranaut-image img {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+}
+.statelite-image {
+    position: fixed;
+    top: 20%;
+    left: 19%;
+}
+.rocket-image {
+    position: fixed;
+    left: 49%;
+    bottom: 5%;
+}
+.Saturn-image img {
+    position: fixed;
+    top: 58%;
+}
+.moon-image img {
+    position: fixed;
+    right: 10%;
+    bottom: 13%;
+}
+/* Responsive */
+@media (max-width:1024px) {
+    .container{
+        width: 92%;
+    }
+    h1 {
+        font-size: 55px;
+    }
+    .earth-image img {
+        left: 2%;
+    }
+    .astranaut-image img {
+        position: fixed;
+        right: 0px;
+        top: 50%;
+        width: 36%;
+    }
+    .hero-content {
+        padding-top: 80px;
+        
+    }
+    .hero-content {
+        padding: 10px 20px;
+    }
+    .statelite-image {
+        display: none;
+    }
+    .rocket-image img {
+        left: 45%;
+        width: 88%;
+    }
+    .Saturn-image img {
+        position: fixed;
+        top: 58%;
+        width: 17%;
+    }
+}
+@media (max-width:782px) and (min-width:768px) {
+    h1.stroke-text {
+        top: -215px;
+        left: -5px;
+    }
+
+}
+
+@media (max-width:767px) and (min-width:520px) {
+    h1.stroke-text {     
+        top: -92px !important;
+        left: -5px;
+    }
+
+}
+@media (max-width:767px) {
+    .container{
+        width: 92%;
+    }
+    .logo img {
+        width: 30%;
+    }
+    h1, h1.stroke-text {
+        font-size: 37px;
+        line-height: 48px;
+      }
+      h1.stroke-text {
+        top: -142px;
+        left: -3px;
+      }
+      .urnaus-image img {
+        width: 50%;
+      }
+      .statelite-image{
+        display: none;
+      }
+      .Saturn-image img{
+        display: none;
+      }
+      a.hero-btn {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 15px 30px;
+        top: -90px;
+    }
+    .earth-image img {
+        left: 0%;
+        width: 100%;
+    }
+    .astranaut-image img {
+        position: absolute;
+        right: 0px;
+        top: 70%;
+        width: 48%;
+    }
+    .moon-image img{
+        display: none;
+    }
+    .rocket-image {
+        left: 25%;
+        bottom: 2%;
+        transform: translateX(50%);
+    }
+    .rocket-image img {
+        width: 75%;
+    }
+    .hero-content {
+        padding: 10px;
+      }
+}
