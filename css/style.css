@@ -225,9 +225,6 @@ a.hero-btn {
     }
     .urnaus-image svg {
         max-width: 260px;
-        position: absolute;
-        top: 0px;
-        right: 0px;
       }
       .statelite-image{
         display: none;
@@ -247,7 +244,7 @@ a.hero-btn {
         transform: translateX(0%);
     }
     .astranaut-image svg {
-        position: fixed;
+        position: absolute;
         right: 0px;
         top: 60%;
         padding-top: 20px;
