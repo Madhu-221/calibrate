@@ -214,8 +214,7 @@ a.hero-btn {
       display: none;
     }
     .hero-section {
-        padding: 50px 0px 60px 0px;
-        height: 100vh;
+        padding: 100px 0px 60px 0px;
     }
     .banner-mobile-text{
         display: block;
@@ -224,8 +223,11 @@ a.hero-btn {
     .logo img {
         width: 30%;
     }
-      .urnaus-image svg {
-        max-width: 280px;
+    .urnaus-image svg {
+        max-width: 260px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
       }
       .statelite-image{
         display: none;
@@ -245,7 +247,7 @@ a.hero-btn {
         transform: translateX(0%);
     }
     .astranaut-image svg {
-        position: absolute;
+        position: fixed;
         right: 0px;
         top: 60%;
         padding-top: 20px;
