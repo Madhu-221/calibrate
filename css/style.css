@@ -66,6 +66,7 @@ a.hero-btn {
     top: 0px;
     right: 0px;
     z-index: -1;
+    max-width: 100%;
 }
 .earth-image img {
     position: fixed;
@@ -219,12 +220,13 @@ a.hero-btn {
     }
     .banner-mobile-text{
         display: block;
+        margin: auto;
     }
     .logo img {
         width: 30%;
     }
       .urnaus-image img {
-        max-width: 70%;
+        max-width: 80%;
       }
       .statelite-image{
         display: none;
@@ -247,8 +249,8 @@ a.hero-btn {
         position: fixed;
         right: 0px;
         top: 60%;
-        max-width: 86%;
         padding-top: 20px;
+        left: 10%;
     }
     .moon-image img{
         display: none;
