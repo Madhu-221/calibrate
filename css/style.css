@@ -61,12 +61,11 @@ a.hero-btn {
     text-transform: uppercase;
     margin-top: 30px;
 }
-.urnaus-image img {
+.urnaus-image svg {
     position: fixed;
     top: 0px;
     right: 0px;
     z-index: -1;
-    max-width: 100%;
 }
 .earth-image img {
     position: fixed;
@@ -74,7 +73,7 @@ a.hero-btn {
     left: 25%;
     transform: translateX(50%);
 }
-.astranaut-image img {
+.astranaut-image svg {
     position: fixed;
     right: 10px;
     top: 50%;
@@ -86,7 +85,7 @@ a.hero-btn {
 }
 .rocket-image {
     position: fixed;
-    left: 49%;
+    left: 48%;
     bottom: 5%;
 }
 .Saturn-image img {
@@ -112,7 +111,7 @@ a.hero-btn {
     .earth-image img {
         left: 2%;
     }
-    .astranaut-image img {
+    .astranaut-image svg {
         position: fixed;
         right: 0px;
         top: 50%;
@@ -225,8 +224,8 @@ a.hero-btn {
     .logo img {
         width: 30%;
     }
-      .urnaus-image img {
-        max-width: 80%;
+      .urnaus-image svg {
+        max-width: 280px;
       }
       .statelite-image{
         display: none;
@@ -245,12 +244,13 @@ a.hero-btn {
         max-width: 100%;
         transform: translateX(0%);
     }
-    .astranaut-image img {
+    .astranaut-image svg {
         position: fixed;
         right: 0px;
         top: 60%;
         padding-top: 20px;
         left: 10%;
+        max-width: 85%;
     }
     .moon-image img{
         display: none;
