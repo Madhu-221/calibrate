@@ -30,6 +30,7 @@ img svg{
 body{
     background-image: url(../images/background.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 /* Header */
 .logo {
