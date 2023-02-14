@@ -243,11 +243,11 @@ a.hero-btn {
         transform: translateX(0%);
     }
     .astranaut-image img {
-        position: fixed;
+        position: absolute;
         right: 0px;
         top: 60%;
         max-width: 86%;
-        padding-top: 40px;
+        padding-top: 20px;
     }
     .moon-image img{
         display: none;
