@@ -246,9 +246,9 @@ a.hero-btn {
     .astranaut-image svg {
         position: fixed;
         right: 0px;
-        top: 65%;
+        top: 60%;
         padding-top: 20px;
-        left: 10%;
+        left: 0%;
         max-width: 85%;
     }
     .moon-image img{
