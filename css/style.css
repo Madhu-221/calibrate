@@ -134,6 +134,9 @@ a.hero-btn {
         top: 58%;
         width: 17%;
     }
+    .hero-section {
+        padding: 150px 0px 60px 0px;
+    }
 }
 @media (max-width:782px) and (min-width:768px) {
 
@@ -145,7 +148,7 @@ a.hero-btn {
 }
 @media (max-width:1700px) and (min-width:1600px) {
     .earth-image img {
-        left: 26%;
+        left: 21%;
       }
       .rocket-image {
         left: 48%;
@@ -154,7 +157,7 @@ a.hero-btn {
 }
 @media (max-width:1599px) and (min-width:1440px) {
     .earth-image img {
-        left: 25%;
+        left: 20%;
       }
       .rocket-image {
         left: 49%;
@@ -163,7 +166,7 @@ a.hero-btn {
 }
 @media (max-width:1439px) and (min-width:1300px) {
     .earth-image img {
-        left: 23%;
+        left: 18%;
       }
       .rocket-image {
         left: 49.5%;
@@ -174,12 +177,26 @@ a.hero-btn {
 
 
 }
-@media (max-width:1299px) and (min-width:1100px) {
+@media (max-width:1299px) and (min-width:1200px) {
     .earth-image img {
-        left: 17%;
+        left: 15%;
+        transform: translateX(41%);
       }
       .rocket-image {
-        left: 49%;
+        left: 46%;
+      }
+      .statelite-image{
+        display: none;
+      }
+
+}
+@media (max-width:1199px) and (min-width:1025px) {
+    .earth-image img {
+        left: 11%;
+        transform: translateX(40%);
+      }
+      .rocket-image {
+        left: 46%;
       }
       .statelite-image{
         display: none;
@@ -195,6 +212,9 @@ a.hero-btn {
     }
     .banner-text{
       display: none;
+    }
+    .hero-section {
+        padding: 50px 0px 60px 0px;
     }
     .banner-mobile-text{
         display: block;
@@ -225,15 +245,16 @@ a.hero-btn {
     .astranaut-image img {
         position: fixed;
         right: 0px;
-        top: 54%;
-        max-width: 90%;
+        top: 60%;
+        max-width: 86%;
+        padding-top: 40px;
     }
     .moon-image img{
         display: none;
     }
     .rocket-image {
         left: 25%;
-        bottom: 2%;
+        bottom: 5%;
         transform: translateX(50%);
     }
     .rocket-image img {
